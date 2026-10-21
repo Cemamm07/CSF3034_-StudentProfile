@@ -11,13 +11,17 @@ package studentprofile;
  */
 public class StudentProfile {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         System.out.println("Name: MUHAMMAD AMSYAR HADIF BIN MD NAZIM"); 
         System.out.println("Student ID: S87301"); 
         System.out.println("Programme: Bachelor of Computer Science");
-        
-      
-       
+        System.out.println("Semester: Semester 1"); 
+        System.out.println("Favourite Language: Java");
+        GradeMessage gm = new GradeMessage();
+        gm.printMessage();
     }
     
 }
